@@ -16,4 +16,9 @@ This dataset is taken from the website https://engineering.case.edu/bearingdatac
 6-   RBF for CWRU bearing Fault Classification
 7-   CNN for CWRU bearing Fault Classification
 8-   ConvLSTM for CWRU bearing Fault Classification
+### PCA and LDA
+Two experiments are carried out in this section. For the 1st experiment, a simple data set with gaussian distrbution is generated. Then the principal directions for transforming the data are obtained and depicted on the generated distribution. The generated distribution and corresponding principal directions are depicted in the below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/1.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/1.png" align="center"></a>
+</p>
 
