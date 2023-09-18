@@ -93,5 +93,31 @@ The loss and accuracy figure of train and validation data during training of RBF
 
 Obviously RBF achieves great performance on test data set. The confusion matrix of test data set is depicted in below figure.
 <p align="center">
-<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/14.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/14.png" align="center"></a>
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/15.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/15.png" align="center"></a>
+</p>
+
+### Fully Connected Autoencoder for Dimensionality Reduction
+The architecture of FC Autoencoder (AE) is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/17.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/17.png" align="center"></a>
+</p>
+
+At first, a 2 dimensional visualization of the data is acquired by t-sne. The scatter plot of raw data in 2 dimensional space is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/16.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/16.png" align="center"></a>
+</p>
+
+The reconstruction error histogram before training the AE is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/18.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/18.png" align="center"></a>
+</p>
+
+The plot of reconstruction error during training the AE is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/19.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/19.png" align="center"></a>
+</p>
+
+The reconstruction error histogram after training the AE is depicted in below figure. Obviously, the distribution is much tighter after training, which denotes that the model has learnt a good latent representation from raw data and can reduce the dimensionality of raw data with slight information loss or none at all.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/20.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/20.png" align="center"></a>
 </p>
