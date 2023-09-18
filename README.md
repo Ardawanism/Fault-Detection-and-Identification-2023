@@ -166,17 +166,17 @@ The performance comparision between using **Drive Signals**, **Fan Signals** and
 | Drive-Fan Signals     | 97.72         |  98.57  |  97.72     |    98.07   |
 
 ---
-For using RBF, a PCA is performed at first. The number of useful features is selected based the the Information/Feature graph depicted in below figure.
+For using RBF, a PCA is performed at first. The number of useful features is selected based the the Information/Feature graph depicted in below figure. Only the first 10 features are kept and the others are omitted.
 <p align="center">
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/28.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/28.png" align="center"></a>
 </p>
 
-The loss and accuracy during training RBF on **Drive Signals** are depicted in below figure.
+The loss and accuracy during training RBF on **Drive-Fan Signals** are depicted in below figure.
 <p align="center">
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/29.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/29.png" align="center"></a>
 </p>
 
-The confusion matrix of **Drive Signals** test data set is depicted in below figure.
+The confusion matrix of **Drive-Fan Signals** test data set is depicted in below figure.
 <p align="center">
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/30.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/30.png" align="center"></a>
 </p>
@@ -207,6 +207,6 @@ The performance comparision between different models trained on **Drive Signals*
 |  MLP (Trained on Drive Signals)     | 94.42          | 95.05   |  94.43   |  94.44 |
 |  MLP (Trained on Fan Signals)    | 97.5          |  97.11  |  97.5   |    97.15   |
 | MLP (Trained on Drive-Fan Signals)     | 97.72         |  98.57  |  97.72     |    98.07   |
-|  RBF (Trained on Drive Signals)     | 93.03          | 92.44  |  93.03   |  92.5 |
+|  RBF (Trained on Drive-Fan Signals)     | 93.03          | 92.44  |  93.03   |  92.5 |
 |  CNN (Trained on Drive-Fan Signals)    | 100.0          |  100.0  |  100.0   |    100.0   |
 | ConvLSTM (Trained on Drive-Fan Signals)     | 100.0         |  100.0  |  100.0     |    100.0   |
