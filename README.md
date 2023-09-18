@@ -122,3 +122,18 @@ The reconstruction error histogram after training the AE is depicted in below fi
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/20.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/20.png" align="center"></a>
 </p>
 
+### CWRU bearing data set Classification using MLP, RBF, CNN, and ConvLSTM
+The CWRU bearing health data set is sliced into signals with length 420. The signal length is choosen based on the sampling frequency and the motor rotational speed. One sample of segmented signals is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/21.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/21.png" align="center"></a>
+</p>
+
+The loss and accuracy during training MLP on **drive signals** are depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/22.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/22.png" align="center"></a>
+</p>
+
+The confusion matrix of **drive signals** test data set is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/23.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/23.png" align="center"></a>
+</p>
