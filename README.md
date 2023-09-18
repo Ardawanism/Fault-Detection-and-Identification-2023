@@ -7,4 +7,13 @@ For PCA and LDA investigation a custom synthetic data set is used. Also for tach
 For Fully Connected Autoencoder for dimensionality reduction a custom bearing data set containing 12 statistical features is used. Moreover, The Case Western Reserve University bearing  data set which contains signals of various bearing health states is utilized for training MLP, RBF, Convolutional and ConvLSTM networks. The signals are segmented by sliding a window with size 420 in a non-overlapping manner. The window size ischoosen based on the sampling frequency and the motor rotational speed. The data set contains 4 classes, namely Healthy, Inner Race, Ball and Outer Race.
 
 This dataset is taken from the website https://engineering.case.edu/bearingdatacenter/download-data-file
+## Berief list of implemented algorithms and neural networks
+1.   PCA and LDA
+2.   MLP for Classification and Regression tasks
+3.   RBF for Classification task
+4.   Fully Connected Autoencoder for dimensionality reduction
+5.   MLP for CWRU bearing Fault Classification
+6.   RBF for CWRU bearing Fault Classification
+7.   CNN for CWRU bearing Fault Classification
+8.   ConvLSTM for CWRU bearing Fault Classification
 
