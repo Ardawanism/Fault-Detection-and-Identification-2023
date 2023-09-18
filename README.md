@@ -204,9 +204,9 @@ The confusion matrix of **Drive-Fan Signals** test data set is depicted in below
 The performance comparision between different models trained on **Drive Signals**, **Fan Signals** and concatenation of **Drive-Fan Signals** is depicted in below table.
 |               | Accuracy     |precision   |recall |f1-score|
 | ------------- |:-------------:| :-----: |:-----:   | :-----:   |
-|  MLP (Drive Signals)     | 94.42          | 95.05   |  94.43   |  94.44 |
-|  MLP (Fan Signals)    | 97.5          |  97.11  |  97.5   |    97.15   |
-| MLP (Drive-Fan Signals)     | 97.72         |  98.57  |  97.72     |    98.07   |
-|  RBF (Drive Signals)     | 93.03          | 92.44  |  93.03   |  92.5 |
-|  CNN (Drive-Fan Signals)    | 100.0          |  100.0  |  100.0   |    100.0   |
-| ConvLSTM (Drive-Fan Signals)     | 100.0         |  100.0  |  100.0     |    100.0   |
+|  MLP (Trained on Drive Signals)     | 94.42          | 95.05   |  94.43   |  94.44 |
+|  MLP (Trained on Fan Signals)    | 97.5          |  97.11  |  97.5   |    97.15   |
+| MLP (Trained on Drive-Fan Signals)     | 97.72         |  98.57  |  97.72     |    98.07   |
+|  RBF (Trained on Drive Signals)     | 93.03          | 92.44  |  93.03   |  92.5 |
+|  CNN (Trained on Drive-Fan Signals)    | 100.0          |  100.0  |  100.0   |    100.0   |
+| ConvLSTM (Trained on Drive-Fan Signals)     | 100.0         |  100.0  |  100.0     |    100.0   |
