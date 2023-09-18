@@ -71,4 +71,27 @@ The achieved result is depicted in below figure. Obviously the results are more 
 </p>
 
 ### MLP and RBF for Classification
+The synthetic data set used for training MLP and RBF Networks for Classification task is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/11.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/11.png" align="center"></a>
+</p>
 
+The loss and accuracy figure of train and validation data during training of MLP are depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/12.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/12.png" align="center"></a>
+</p>
+
+Obviously MLP achieves great performance on test data set. The confusion matrix of test data set is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/13.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/13.png" align="center"></a>
+</p>
+
+The loss and accuracy figure of train and validation data during training of RBF are depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/14.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/14.png" align="center"></a>
+</p>
+
+Obviously RBF achieves great performance on test data set. The confusion matrix of test data set is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/14.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/14.png" align="center"></a>
+</p>
