@@ -47,3 +47,5 @@ Furthermore, using the same data set and LDA, the principal components for trans
 <p align="center">
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/5.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/5.png" align="center"></a>
 </p>
+
+.
