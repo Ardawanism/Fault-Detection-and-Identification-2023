@@ -121,3 +121,4 @@ The reconstruction error histogram after training the AE is depicted in below fi
 <p align="center">
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/20.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/20.png" align="center"></a>
 </p>
+
