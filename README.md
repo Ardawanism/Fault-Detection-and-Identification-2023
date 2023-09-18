@@ -166,7 +166,7 @@ The performance comparision between using **Drive Signals**, **Fan Signals** and
 | Drive-Fan Signals     | 97.72         |  98.57  |  97.72     |    98.07   |
 
 ---
-For using RBF, a PCA is performed at first. The number of useful features is selected based the the Information/Feature graph depicted in below figure. Only the first 10 features are kept and the others are omitted.
+For using RBF, a PCA is performed at first. The number of useful features is selected based the the Information/Feature graph depicted in below figure. Only the first 10 features after the transformation are considered useful and are kept and the others are omitted.
 <p align="center">
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/28.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/28.png" align="center"></a>
 </p>
