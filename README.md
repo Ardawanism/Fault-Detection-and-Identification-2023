@@ -6,5 +6,5 @@ Machine Learning and Deep Learning algorithms play an important role in Intellig
 For PCA and LDA investigation a custom synthetic data set is used. Also for taching MLP for Regression and Classification, and RBF for Classification a custom synthetic data set is used.
 For Fully Connected Autoencoder for dimensionality reduction a custom bearing data set containing 12 statistical features is used. Moreover, The Case Western Reserve University bearing  data set which contains signals of various bearing health states is utilized for training MLP, RBF, Convolutional and ConvLSTM networks. The signals are segmented by sliding a window with size 420 in a non-overlapping manner. The data set contains 4 classes, namely Healthy, Inner Race, Ball and Outer Race.
 
-This dataset is taken from the website [Mendeley Data - Crack Detection, contributed by Çağlar Fırat Özgenel](https://engineering.case.edu/bearingdatacenter/download-data-file)https://engineering.case.edu/bearingdatacenter/download-data-file.
+This dataset is taken from the website https://engineering.case.edu/bearingdatacenter/download-data-file
 
