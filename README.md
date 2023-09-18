@@ -128,12 +128,39 @@ The CWRU bearing health data set is sliced into signals with length 420. The sig
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/21.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/21.png" align="center"></a>
 </p>
 
-The loss and accuracy during training MLP on **drive signals** are depicted in below figure.
+The loss and accuracy during training MLP on **Drive Signals** are depicted in below figure.
 <p align="center">
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/22.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/22.png" align="center"></a>
 </p>
 
-The confusion matrix of **drive signals** test data set is depicted in below figure.
+The confusion matrix of **Drive Ssignals** test data set is depicted in below figure.
 <p align="center">
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/23.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/23.png" align="center"></a>
 </p>
+
+The loss and accuracy during training MLP on **Fan Signals** are depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/24.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/24.png" align="center"></a>
+</p>
+
+The confusion matrix of **Fan Signals** test data set is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/25.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/25.png" align="center"></a>
+</p>
+
+The loss and accuracy during training MLP on **Drive-Fan Signals** are depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/26.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/26.png" align="center"></a>
+</p>
+
+The confusion matrix of **Drive-Fan Signals** test data set is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/27.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/27.png" align="center"></a>
+</p>
+
+The performance comparision between using **Drive Signals**, **Fan Signals** and concatenation of **Drive-Fan Signals** is depicted in below table.
+|               | Accuracy     |precision   |recall |f1-score|
+| ------------- |:-------------:| :-----: |:-----:   | :-----:   |
+|  Drive Signals     | 94.42          | 95.05   |  94.43   |  94.44 |
+|  Fan Signals    | 97.5          |  97.11  |  97.5   |    97.15   |
+| Drive-Fan Signals     | 97.72         |  98.57  |  97.72     |    98.07   |
