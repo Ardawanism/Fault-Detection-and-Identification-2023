@@ -67,10 +67,14 @@ The predicted values by the regression network for samples belonging to train da
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/8.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/8.png" align="center"></a>
 </p>
 
-Apparentely, for large values of independent variable the predicted values are not accurate enough, so we use powers of independent variable x (x^2, x^3, ...) in order to achieve a better regression model. The achieved result is depicted in below figure.
+Apparentely, for large values of independent variable the predicted values are not accurate enough, so we use powers of independent variable x (x^2, x^3, ...) in order to achieve a better regression model. The error during training procedure is depicted in below figure.
 
 <p align="center">
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/9.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/9.png" align="center"></a>
 </p>
 
-Obviously the results are more accurate for large values of independent variable x.
+The achieved result is depicted in below figure. Obviously the results are more accurate for large values of independent variable x.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/10.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/10.png" align="center"></a>
+</p>
+
