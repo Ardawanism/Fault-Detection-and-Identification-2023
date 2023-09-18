@@ -30,7 +30,7 @@ For the 2nd example, a simple data set with 3 classes is generated. The generate
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/2.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/2.png" align="center"></a>
 </p>
 
-Then the principal components are obtained from PCA and the data is projected to each of obtained directions. The result is depicted in below figure.
+Then the principal components are obtained from PCA and the data is projected to each of obtained directions. The result is depicted in below figure..
 
 <p align="center">
 <a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/3.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/3.png" align="center"></a>
