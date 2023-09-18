@@ -164,3 +164,49 @@ The performance comparision between using **Drive Signals**, **Fan Signals** and
 |  Drive Signals     | 94.42          | 95.05   |  94.43   |  94.44 |
 |  Fan Signals    | 97.5          |  97.11  |  97.5   |    97.15   |
 | Drive-Fan Signals     | 97.72         |  98.57  |  97.72     |    98.07   |
+
+---
+For using RBF, a PCA is performed at first. The number of useful features is selected based the the Information/Feature graph depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/28.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/28.png" align="center"></a>
+</p>
+
+The loss and accuracy during training RBF on **Drive Signals** are depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/29.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/29.png" align="center"></a>
+</p>
+
+The confusion matrix of **Drive Signals** test data set is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/30.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/30.png" align="center"></a>
+</p>
+
+The loss and accuracy during training CNN on **Drive-Fan Signals** are depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/31.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/31.png" align="center"></a>
+</p>
+
+The confusion matrix of **Drive-Fan Signals** test data set is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/32.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/32.png" align="center"></a>
+</p>
+
+The loss and accuracy during training ConvLSTM on **Drive-Fan Signals** are depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/33.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/33.png" align="center"></a>
+</p>
+
+The confusion matrix of **Drive-Fan Signals** test data set is depicted in below figure.
+<p align="center">
+<a href="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/34.png"><img src="https://github.com/Ardawanism/Fault-Detection-and-Identification-2023/blob/master/Asset/Pix/34.png" align="center"></a>
+</p>
+
+The performance comparision between different models trained on **Drive Signals**, **Fan Signals** and concatenation of **Drive-Fan Signals** is depicted in below table.
+|               | Accuracy     |precision   |recall |f1-score|
+| ------------- |:-------------:| :-----: |:-----:   | :-----:   |
+|  MLP (Drive Signals)     | 94.42          | 95.05   |  94.43   |  94.44 |
+|  MLP (Fan Signals)    | 97.5          |  97.11  |  97.5   |    97.15   |
+| MLP (Drive-Fan Signals)     | 97.72         |  98.57  |  97.72     |    98.07   |
+|  RBF (Drive Signals)     | 93.03          | 92.44  |  93.03   |  92.5 |
+|  CNN (Drive-Fan Signals)    | 100.0          |  100.0  |  100.0   |    100.0   |
+| ConvLSTM (Drive-Fan Signals)     | 100.0         |  100.0  |  100.0     |    100.0   |
