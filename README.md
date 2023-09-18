@@ -8,14 +8,14 @@ For Fully Connected Autoencoder for dimensionality reduction a custom bearing da
 
 This dataset is taken from the website https://engineering.case.edu/bearingdatacenter/download-data-file
 ## Berief list of implemented algorithms and neural networks
-1-   PCA and LDA
-2-   MLP for Classification and Regression tasks
-3-   RBF for Classification task
-4-   Fully Connected Autoencoder for dimensionality reduction
-5-   MLP for CWRU bearing Fault Classification
-6-   RBF for CWRU bearing Fault Classification
-7-   CNN for CWRU bearing Fault Classification
-8-   ConvLSTM for CWRU bearing Fault Classification
+1.   PCA and LDA
+2.   MLP for Classification and Regression tasks
+3.   RBF for Classification task
+4.   Fully Connected Autoencoder for dimensionality reduction
+5.   MLP for CWRU bearing Fault Classification
+6.   RBF for CWRU bearing Fault Classification
+7.   CNN for CWRU bearing Fault Classification
+8.   ConvLSTM for CWRU bearing Fault Classification
 ### PCA and LDA
 Two experiments are carried out in this section. For the 1st experiment, a simple data set with gaussian distrbution is generated. Then the principal directions for transforming the data are obtained and depicted on the generated distribution. The generated distribution and corresponding principal directions are depicted in the below figure.
 
